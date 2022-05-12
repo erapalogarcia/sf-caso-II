@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "effective-relic-347418",
+  "private_key_id": "6863d39ded2aca6ad496ab37488af68d28a30df4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCoIBIc9HT3pvaJ\nR9zJUSSmjdPpg+q1W2Ryvwh4oQlLcIiLQd7583bZ3W5XUQDMmuOke+yAa7a8wPvb\nzLq0wUvqHtQJcZQhqBxMILPwZCl58cnT1UWLQN7BagPJZPq4sp8Sf8LS2nifzWXV\nVjCC/r/wVFyVDhYV5b3MXDwNE2Dm6RqDqIn3m9UbJ8CX3pedxS1fFQdU9Dixc+pk\nO1PvW57ERFbzAYT7LJGT2rUPkuqn9XdFeAXbBxB5vJVDbFAXckc5Gm0cE/KY51vc\nCvUPo6pvMqTKOcQraRBYGNAX3GOSHdoEapk36CYm3gV74RX9hwPI1Pvo99386hXt\nOuxdr5RhAgMBAAECggEAUuY1aDeVsUOPjtNzZ4TuOH34fs1AHxqoZfgSOkDVb3BW\ns6vQQZkuAnEv5jgX18uL8d/1FsGGAn558cB6U4R4ZUG8NcfeTdYx1cvOTftlhC6X\n4S7pMqfS7rXSliyHgCj7TMjYjNWS4uEJlG8CTqVEiUFfwVOHylZVBv530c67Wj/K\n/x61TQvKc2RzYPj6Xy55pvqxBoNMWJtuX/CaXeWA5YnO3KvAnyX9XdUzkwfeTJPU\nA0qBKdcqdowb4M22UxQ9ZvJclXoNGFOGBYe4A/Lzf3Z9A5YDGNhIglbPBpOf3B1K\n3Eodwee8qpsNLxqPdDACwLcA2Dwf4rHeoXV0PVE9LQKBgQDkQihdm8TXSfLdarOX\nFqagXRHNXjs/HazwAW8sMM0AFTQ7vTeOy92dOAnY99SjXK03nylE/P9o0UHGYRfJ\nqkhtKfVhF+PQIhQZoYNq244eHt9b0uWkIExkQQzIUK1YGaKLk20Sy/o5kObb5Oc6\nTrTP4pxVzbx2BXWqhI/bUAmy/wKBgQC8jvr4GWGbZIJl8yLpNEGZYOJLaAthf8CN\nr1slLn0CxzgwQ1avodD7gXb3Iv0xSoVMh6c7FeCk/Zz04v+2AflfhyAjleyibvYx\nKgeqj0JJwfNw0DOZkXt01DrtA7HlsU4ahA8OXwU//neQbqGWK0/atR1YW5lD5iu9\niq9IlJ6YnwKBgQChEB2zj8qhr0hz/Gqk3hLNbV62bxuXObVh1WFA6V5+BHhK/wVI\n+Yly+qvYMWgVrbt8WA6i43LF34JuHOzQHBvnC4hd7qGNp75PJ6y3phzuHBK3lGT+\nHtxIka4XWvY2CECuBGUeslfqbti3qRmQByGG3vw5f2bQUKHqpIdt1VhCuQKBgQCN\nBoM+O/18s1ez2H0r3iGSDZwyucaJTXs+fQC2dmaZRVcJAdQ719LtyI6pmEm2K/42\nlt7EmkBCJkzV+1E1V5SjlfS7qM4rTsJjUwQY1LzHXYAtyApPuTeU0Yag7jqHiGzZ\n+BsqrHbIvhG+vH+uSQaYlQ01oIyo8+WTBb7DkiRsEQKBgQDcg59wZYPXpCQ98uLg\neuY9exRIMd8sRbMlre3e/Afz7m4ggy5jL2jRFc9pfLRse6YOq1XOAHHMONdeHDss\n6oIE7InbanxHDyzCUhPYoeEkn/dSmnOgwlTci3fzv80Z8iZUb98NqZEu6aQKgZ22\nhI4I3h4M5F4EZw9XyWaOerZnBA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "k8-services@effective-relic-347418.iam.gserviceaccount.com",
+  "client_id": "111585748333019016527",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/k8-services%40effective-relic-347418.iam.gserviceaccount.com"
+}
