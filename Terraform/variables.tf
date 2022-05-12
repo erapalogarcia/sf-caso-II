@@ -5,11 +5,11 @@ variable "name" {
 
 #nombre del proyecto
 variable "project" {
-  default = "proyecto-caso"
+  default = "demo"
 }
 
 variable "name_pool" {
-  default="gke-pool1"
+  default="gke-pool"
 }
 
 variable "location" {
