@@ -6,7 +6,7 @@ WORKDIR /home/app
 #se copian los archivos necesarios
 COPY . /home/app/
 #se crea el jar de la aplicacion 
-RUN mvn -f /home/app/pom.xml clean package
+RUN mvn -f /home/app/hello-world-java/pom.xml clean package
 
 # Create an Image
 #se crea la imagen base
