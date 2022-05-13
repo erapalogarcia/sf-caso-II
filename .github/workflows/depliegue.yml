@@ -32,7 +32,7 @@ jobs:
         uses: google-github-actions/setup-gcloud@v0
         
       - run: |-
-          gcloud container cluster get credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
+          gcloud container clusters get-credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
       - name: Deploy
         run: |-
           kubectl apply -f deployl.yml
