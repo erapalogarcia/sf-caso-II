@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,30 +26,29 @@ jobs:
     name: set up deploy
     runs-on: ubuntu-latest
 
-    permissions: 
-      contents: 'read'
-      id-token: 'write'
+    permissions:
+      contents: "read"
+      id-token: "write"
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - id: 'auth'
-        uses: 'google-github-actions/auth@v0'
-        with: 
-           credentials: '${{ secrets.GCP_CREDENTIALS }}'
+      - id: "auth"
+        uses: "google-github-actions/auth@v0"
+        with:
+          credentials: "${{ secrets.GCP_CREDENTIALS }}"
 
       # Runs a single command using the runners shell
       - name: Set Up cloud SDK
-        uses: 'google-github-actions/auth@v'
+        uses: "google-github-actions/auth@v"
 
-
-      # Runs a set of commands using the runners shell
+        # Runs a set of commands using the runners shell
         run: |-
           gcloud container cluster get credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
       - name: Deploy
         run: |-
-          kubctl apply -f deployment.yml
-          kubctl rollout status deployment/$DEPLOYMENT_NAME
-          kubctl get servces -o wide
+          kubectl apply -f deployment.yml
+          kubectl rollout status deployment/$DEPLOYMENT_NAME
+          kubectl get services -o wide
