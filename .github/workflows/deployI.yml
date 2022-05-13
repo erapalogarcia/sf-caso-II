@@ -24,10 +24,11 @@ kind: Service
 metadata:
   name: appservice
 spec:
+  type: LoadBalancer
   selector:
     app: test-app
   ports:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-  type: LoadBalancer
+  
