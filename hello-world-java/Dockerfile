@@ -14,6 +14,6 @@ FROM openjdk:8-jdk-alpine
 #se expone en el puerto 5000
 EXPOSE 5000
 #se copia de la primera fase (stage1) el jar que se genero en ese directorio
-COPY --from=stage1 /home/app/target/hello-world-java.jar hello-world-java.jar
+COPY --from=stage1 /home/app/hello-world-java/target/hello-world-java.jar hello-world-java.jar
 #se indica que se ejecute
 ENTRYPOINT ["sh", "-c", "java -jar /hello-world-java.jar"]
