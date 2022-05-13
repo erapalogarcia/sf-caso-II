@@ -13,7 +13,7 @@ spec:
         app: gke-hello-app
     spec:
       containers:
-      - image: erapalo/hello-world-java:0.1
+      - image: erapalo/hello-world-java:latest
         name: gke-hello-app
         ports:
         - containerPort: 5000
