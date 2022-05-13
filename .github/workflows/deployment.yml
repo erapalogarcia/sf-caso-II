@@ -13,7 +13,7 @@ spec:
         app: test-app
     spec:
       containers:
-      - image: in28min/hello-world-rest-api:0.0.1.RELEASE
+      - image: erapalo/hello-world-java:0.1
         name: test-app
         ports:
         - containerPort: 5000
@@ -24,10 +24,11 @@ kind: Service
 metadata:
   name: appservice
 spec:
+  type: LoadBalancer
   selector:
     app: test-app
   ports:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-  type: LoadBalancer
+  
