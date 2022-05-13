@@ -3,9 +3,7 @@
 
 
 provider "google" {
-  credentials = file("./effective-relic-347418-6863d39ded2a.json")
-  project     = "effective-relic-347418"
-  region      = "us-central1-a"
+  credentials = file("./stefanini-proyecto-424769cfba7e.json")
 }
 #default es el nombre del cluster
 

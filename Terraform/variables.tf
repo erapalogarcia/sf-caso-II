@@ -5,7 +5,7 @@ variable "name" {
 
 #nombre del proyecto
 variable "project" {
-  default = "demo"
+  default = "stefanini-proyecto"
 }
 
 variable "name_pool" {
