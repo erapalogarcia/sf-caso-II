@@ -25,11 +25,11 @@ jobs:
       - id: 'auth'
         uses: 'google-github-actions/auth@v0'
         with:
-            credentials_json: '${{secrets.GCP_CREDENTIALS}}'
+            credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
    
       -
         name: Set up cloud sdk
-        uses: google-github-actions/auth@v0
+        uses: google-github-actions/setup-gcloud@v0
         
       - run: |-
           gcloud container cluster get credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
